@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Contact Sandeep Jerubandi</title>
+    <meta type="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="nav-footer.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" id="logo">SJ</a>
+        <input type="checkbox" id="menubar">
+        <label for="menubar"><img src="MenuLogo.png"></label>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://drive.google.com/file/d/1ZY3E88FEVDOpdbQsY4CNG2YEndwVnr5Q/view?usp=sharing"
+                        download="Sandeep.Resume.pdf">Resume</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="contact">
+        <div class="info">
+            <h1>SJ</h1>
+            <h3>Say Hello:</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/_sandeep_rockz_99/"><img src="instagramLogo.png"
+                            id="contactLogo"></a></li>
+                <li><a href="https://www.facebook.com/jerubandi.sandeep.1"><img src="facebookLogo.png"
+                            id="contactLogo"></a></li>
+                <li><a href="https://twitter.com/SandeepJ9944?s=08"><img src="twitterLogo.png" id="contactLogo"></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/sandeep-jerubandi-80bbb324a/"><img src="linkedLogo.png"
+                            id="contactLogo"></a></li>
+            </ul>
+            <p>Copyright &#9400 2023 SandeepJerubandi.All Rights Reserved.</p>
+        </div>
+
+
+        <div class="form">
+            <h1>Let's Work Together</h1><br>
+            <form id="contactform" action="" >
+                <label for="firstname">FIRST NAME* 
+                    <span id="firstNameError"></span></label><br>           
+                <input type="text" id="firstname" required ><br><br>
+                <label for="lastname">LAST NAME*
+                    <span id="lastNameError" ></span></label><br>
+                <input type="text" id="lastname" required><br><br>
+                <label for="email">EMAIL* 
+                    <span id="emailError"></span></label><br>
+                <input type="email" id="email" required><br><br>
+                <label for="phoneNo">PHONE NUMBER</label><br>
+                <input type="text" id="phoneNo"><br><br>
+                <label for="textarea">MESSAGE</label><br>
+                <textarea name="" id="textarea" cols="35" rows="5"></textarea><br><br>
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+     
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="formValidate.js"></script>
+
+</body>
+
+</html>

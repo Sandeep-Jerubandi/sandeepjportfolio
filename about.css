@@ -1,0 +1,88 @@
+
+.mainbody{
+    margin: 100px 0px 10px 0px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 150px;
+}
+.profile img{
+    height:300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 20px 0px 0px 0px;
+}
+.profile h3{
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+.profile p{
+    text-align: justify;
+     
+}
+.profile span{
+    font-size: 1.6rem;
+}
+.education{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px 0px 0px;
+    padding: 50px;
+}
+.educationFirstHalf h1{
+    font-family:  'Inter', sans-serif;
+    margin: 20px 50px;
+    color: #439093;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.educationFirstHalf p{
+    padding: 0px 50px 50px 50px;
+    text-align: justify;
+}
+.educationSecondhalf img{
+    width: 420px;
+    height: 420px;
+    margin: 40px;
+    border-radius: 5%;
+}
+
+
+
+
+@media (max-width:991px){
+ 
+    .profile{
+        margin:18px;
+    }
+    .profile img{
+        height:500px;
+        width:500px;
+    }
+    .profile h3{
+        font-size:4rem;
+    }
+    .education{
+        flex-direction:column-reverse;
+        padding: 0px;
+    }
+    .educationSecondhalf img{
+        height:800px;
+        width:800px;        
+    }
+    .education h1{
+        margin: 30px 10px;
+    }
+    .education p{
+        padding:16px;
+    }
+
+
+}

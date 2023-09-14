@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sandeep Jerubandi-Web Developer</title>
+    <meta type="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="nav-footer.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" id="logo">SJ</a>
+        <input type="checkbox" id="menubar">
+        <label for="menubar"><img src="MenuLogo.png"></label>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" >About</a></li>
+                <li><a href="https://drive.google.com/file/d/1ZY3E88FEVDOpdbQsY4CNG2YEndwVnr5Q/view?usp=sharing"
+                        download="Sandeep.Resume.pdf">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="main">
+        <div class="firstSection">
+            <h3>HI I'M SANDEEP<br></h3>
+            <h1>I'M A WEB <br> DEVELOPER</h1><br>
+            <p>Aspiring web developer with a fresh perspective and a strong 
+                foundation in coding, eager to contribute to innovative web 
+                projects and explore the ever-evolving digital landscape.</p><br>
+        </div>
+        <div class="secondSection">
+            <img src="developerimg.png" id="systemlogo">
+        </div>
+    </div>
+    <div class="main2">
+        <div class="main2FirstSection">
+            <h3>ABOUT</h3>
+            <p>As a developer, I like to introduce myself as a problem solver. I see myself as someone
+                who can take on any challenge that is presented to me and find a way to overcome it. I am
+                always looking for ways to improve my skills and learn new technologies.I'm a self-motivated
+                team player with fresher level experience seeking a position
+                as a web developer with Next Generation Web Development where I can apply my
+                advanced knowledge of web design with my leadership abilities to meet client needs
+                and exceed their expectations.</p><br>
+            <a href="about.html" id="moreAboutbt">MORE ABOUT ME</a>
+        </div>
+    </div>
+    <div class="skillboard">
+        <h3>MY SKILLS</h3>
+        <div class="skills-1">
+            <div>
+                <h4>HTML</h4>
+                <img src="htmlLogo.png" id="skilllogo">
+            </div>
+            <div>
+                <h4>CSS</h4>
+                <img src="cssLogo.png" id="skilllogo">
+            </div>
+            <div>
+                <h4>JavaScript</h4>
+                <img src="javaScriptLogo.png" id="skilllogo">
+            </div>
+        </div>
+        <div class="skills-2">
+            <div>
+                <h4>Python</h4>
+                <img src="pythonLogo.png" id="skilllogo">
+            </div>
+            <div>
+                <h4>Java</h4>
+                <img src="JavaLogo2.png" id="skilllogo">
+            </div>
+            <div>
+                <h4>MySQL</h4>
+                <img src="MysqlLogo.png" id="skilllogo">
+            </div>
+
+        </div>
+    </div>
+    <div class="contact">
+        <div class="info">
+            <h1>SJ</h1>
+            <h3>Say Hello:</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/_sandeep_rockz_99/"><img src="instagramLogo.png"
+                            id="contactLogo"></a></li>
+                <li><a href="https://www.facebook.com/jerubandi.sandeep.1"><img src="facebookLogo.png"
+                            id="contactLogo"></a></li>
+                <li><a href="https://twitter.com/SandeepJ9944?s=08"><img src="twitterLogo.png" id="contactLogo"></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/sandeep-jerubandi-80bbb324a/"><img src="linkedLogo.png"
+                            id="contactLogo"></a></li>
+            </ul>
+            <p>Copyright &#9400 2023 SandeepJerubandi.All Rights Reserved.</p>
+        </div>
+        <div class="form">
+            <h1>Let's Work Together</h1><br>
+            <form id="contactform" action="" >
+                <label for="firstname">FIRST NAME* 
+                    <span id="firstNameError"></span></label><br>           
+                <input type="text" id="firstname" required ><br><br>
+                <label for="lastname">LAST NAME*
+                    <span id="lastNameError" ></span></label><br>
+                <input type="text" id="lastname" required><br><br>
+                <label for="email">EMAIL* 
+                    <span id="emailError"></span></label><br>
+                <input type="email" id="email" required><br><br>
+                <label for="phoneNo">PHONE NUMBER</label><br>
+                <input type="text" id="phoneNo"><br><br>
+                <label for="textarea">MESSAGE</label><br>
+                <textarea name="" id="textarea" cols="35" rows="5"></textarea><br><br>
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+     
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="formValidate.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Sandeep Jerubandi</title>
+        <link rel="stylesheet" href="about.css">  
+        <link rel="stylesheet" href="nav-footer.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">      
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <meta type="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <a href="index.html" id="logo">SJ</a>
+            <input type="checkbox" id="menubar">
+            <label for="menubar"><img src="MenuLogo.png"></label>
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://drive.google.com/file/d/1ZY3E88FEVDOpdbQsY4CNG2YEndwVnr5Q/view?usp=sharing" 
+                        download="Sandeep.Resume.pdf" id="resume">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="mainbody">
+            <div class="profile">
+                <img src="MyLogo.jpg" alt="">
+                <h3>Hi, I am Sandeep, nice to meet you!</h3>
+                <p><span>A</span>s a recent graduate and enthusiastic newcomer to the professional world, I am passionate
+                    about embarking on a fulfilling career journey. Armed with fresh knowledge, a hunger for 
+                    learning, and a determination to make a meaningful impact, I am excited to bring a new 
+                    perspective to the table. I am a quick learner,adaptable, and open to diverse experiences, 
+                    which makes me a valuable addition to any team.<br><br>
+                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;While I may lack extensive work experience, my enthusiasm, dedication, and a strong work 
+                    ethic are my driving forces. I am committed to continuous growth and development, and I 
+                    believe that my passion for innovation and creativity will contribute positively to any 
+                    project I am a part of.<br><br>
+                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In addition to my academic achievements, I possess excellent communication skills, a 
+                    collaborative mindset, and a willingness to take on responsibilities. I am excited to embark 
+                    on this new chapter of my professional life and to contribute my energy and fresh perspective 
+                    to a dynamic organization.</p>
+            </div>  
+            <div class="education">
+                <div class="educationFirstHalf">
+                    <h1>Electronics Graduate with a Passion for Web Development</h1>
+                    <p>During my B.Tech program, I specialized in electronics, developing a strong foundation in the field. However, 
+                        as I progressed, my interests organically shifted towards web development. I found the dynamic and creative 
+                        aspects of web development captivating, leading me to pursue additional training and self-study in this domain. 
+                        This transition reflects my adaptability and eagerness to explore new opportunities in the ever-evolving tech 
+                        industry, where I am now excited to apply my skills and passion for web development.<br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I successfully completed an intensive 8-week online web development training program through Internshala Trainings. 
+                        This hands-on experience equipped me with a comprehensive understanding of web development fundamentals, including 
+                        HTML, CSS, JavaScript, and web application development.</p>
+                </div>
+                <div class="educationSecondhalf">
+                    <img src="MyProfile2.JPG" alt="">
+                </div>
+            </div>      
+        </div>
+
+
+        <div class="contact">
+            <div class="info">
+                <h1>SJ</h1>
+                <h3>Say Hello:</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/_sandeep_rockz_99/"><img src="instagramLogo.png" id="contactLogo"></a></li>
+                    <li><a href="https://www.facebook.com/jerubandi.sandeep.1"><img src="facebookLogo.png" id="contactLogo"></a></li>
+                    <li><a href="https://twitter.com/SandeepJ9944?s=08"><img src="twitterLogo.png" id="contactLogo"></a></li>
+                    <li><a href="#"><img src="linkedLogo.png" id="contactLogo"></a></li>
+                </ul>
+                <p>Copyright &#9400 2023 SandeepJerubandi.All Rights Reserved.</p>
+            </div>
+            <div class="form">
+                <h1>Let's Work Together</h1><br>
+                <form id="contactform" action="" >
+                    <label for="firstname">FIRST NAME* 
+                        <span id="firstNameError"></span></label><br>           
+                    <input type="text" id="firstname" required ><br><br>
+                    <label for="lastname">LAST NAME*
+                        <span id="lastNameError" ></span></label><br>
+                    <input type="text" id="lastname" required><br><br>
+                    <label for="email">EMAIL* 
+                        <span id="emailError"></span></label><br>
+                    <input type="email" id="email" required><br><br>
+                    <label for="phoneNo">PHONE NUMBER</label><br>
+                    <input type="text" id="phoneNo"><br><br>
+                    <label for="textarea">MESSAGE</label><br>
+                    <textarea name="" id="textarea" cols="35" rows="5"></textarea><br><br>
+                    <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="formValidate.js"></script>
+    </body>
+</html>
